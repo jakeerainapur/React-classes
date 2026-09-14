@@ -1,0 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+  color: cyan;
+  font-family: Arial, sans-serif;
+}
+
+/* Header */
+
+.header {
+  border-top: 8px solid yellow;
+  padding: 30px;
+  text-align: center;
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.header h1 {
+  font-size: 40px;
+}
+
+nav {
+  margin-top: 20px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: yellow;
+}
+
+/* Main */
+
+.main {
+  min-height: 550px;
+  padding: 50px;
+}
+
+.card {
+  max-width: 900px;
+  margin: auto;
+  text-align: left;
+}
+
+.logo {
+  display: block;
+  width: 350px;
+  height: 350px;
+  object-fit: contain;
+  margin: 0 auto 30px;
+}
+
+.rule {
+  font-family: Georgia, serif;
+  font-size: 45px;
+  margin-bottom: 25px;
+}
+
+.tables {
+  font-family: Georgia, serif;
+  font-size: 22px;
+  line-height: 1.7;
+}
+
+/* Footer */
+
+.footer {
+  border-bottom: 8px solid yellow;
+  border-top: 2px solid yellow;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+}

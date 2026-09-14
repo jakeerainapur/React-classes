@@ -1,0 +1,9 @@
+*{
+  background-color: black;
+  color: aqua;
+  font-size: monospace;
+}
+.card{
+  border: 5px solid yellow;
+  
+}
